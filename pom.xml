@@ -66,8 +66,10 @@
                 <configuration>
                     <testFailureIgnore>true</testFailureIgnore>
                     <runOrder>Alphabetical</runOrder>
+
                     <parallel>methods</parallel>
                     <!--                    <useUnlimitedThreads>true</useUnlimitedThreads>-->
+                   <!--we use thread count to show how many either classes or feature files will run                    -->
                     <threadCount>4</threadCount>
                     <perCoreThreadCount>false</perCoreThreadCount>
                     <includes>
@@ -75,7 +77,6 @@
                         <!--                         <include>**/*FailedTestRunner.java</include>-->
                     </includes>
                 </configuration>
-
             </plugin>
 
         </plugins>
