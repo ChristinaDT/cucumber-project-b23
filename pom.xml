@@ -70,7 +70,7 @@
                     <parallel>methods</parallel>
                     <!--                    <useUnlimitedThreads>true</useUnlimitedThreads>-->
                    <!--we use thread count to show how many either classes or feature files will run                    -->
-                    <threadCount>4</threadCount>
+                    <threadCount>2</threadCount>
                     <perCoreThreadCount>false</perCoreThreadCount>
                     <includes>
                         <include>**/*TestRunner.java</include>
